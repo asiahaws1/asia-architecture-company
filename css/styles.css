@@ -379,7 +379,7 @@ header img {
     width: 100%; /* Ensure full width for all items */
   }
   li.active {
-    background-color: #5BBA6F;
+    background-color: #407e4e;
   }
   a {
     display: block;
