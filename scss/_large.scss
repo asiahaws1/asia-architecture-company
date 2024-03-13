@@ -1,0 +1,45 @@
+header, nav, main {
+    max-width: 1240px;
+    margin: auto;
+}
+
+nav ul li a {
+    padding: .6rem 2rem;
+    font-size: .8rem;
+}
+
+nav {
+    max-width: 100%;
+}
+
+    nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 2rem; /* Add padding to remove default padding */
+    width: 100%;
+    display: flex;
+    justify-content: flex-end; // Right align menu items
+    background-color: #5BBA6F;
+    }
+    
+   
+    
+
+   
+    li.active {
+        background-color: #4E6151;
+    }
+
+    a {
+        display:flex;
+        padding: 0.75rem;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+    
+
+        &:hover {
+            background-color: #d3d1d7;
+            text-decoration: underline wavy; // Add wavy underline effect on hover
+        }
+    }

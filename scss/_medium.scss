@@ -1,0 +1,33 @@
+@media (min-width: 768px) and (max-width: 1023px) {
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: space-between; // Adjust spacing between menu items
+    }
+
+    li {
+        background-color: #5BBA6F;
+        width: 100vw; // Allow items to size themselves
+        margin: 0; // Remove any margin
+    }
+
+    li.active {
+        background-color: #9D6381;
+    }
+
+    a {
+        display: block;
+        padding: 0.75rem;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        width: auto; // Ensure width adjusts to content
+
+        &:hover {
+            background-color: #d3d1d7;
+            text-decoration: underline wavy; // Add wavy underline effect on hover
+        }
+    }
+}

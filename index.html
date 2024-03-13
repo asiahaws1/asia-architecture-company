@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Architectural Pros</title>
+    <meta name="description" content="Asia Haws' Architectural">
+    <meta name="author" content="Asia Haws">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+    <link href="css/styles.min.css" rel="stylesheet">
+
+
+    <!-- fav icon stuff -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+
+</head>
+
+<body>
+
+    <div id="headerWrapper">
+        <header>
+                    <img src="images/logo1x.png" alt="logo" width="45" height="50"
+                    srcset="images/logo1x.png 1x, images/logo2x.png 2x, images/logo3x.png 3x">
+            <h1>Architectural Pros</h1>
+        </header>
+    </div>
+
+    <div id="navWrapper">
+        <nav>
+            <ul>
+                <li class="active"><a href="#">Learn</a></li>
+                <li><a href="#">Practice</a></li>
+                <li><a href="#">Implement</a></li>
+
+            </ul>
+        </nav>
+    </div>
+
+    
+
+    <div id="mainWrapper">
+        <main>
+            <picture class="hero">
+                <!-- Specify valid image source for smaller screens -->
+                <source media="(max-width: 700px)" srcset="images/hero_small.webp">
+                <source media="(max-width: 1100px)" srcset="images/hero_md.webp">   
+        
+                <!-- Fallback image for browsers that do not support picture element or srcset -->
+                <img src="images/hero_large.webp" alt="Hero Image">
+            </picture>
+
+            <h1>My Video With Captions</h1>
+            
+                <video controls >
+                    <source src="media/trimmed_hb.mp4" type="video/mp4" />
+                    <source src="media/trimmed_hb.webm" type="video/webm" />
+                    <track
+                      label="English"
+                      kind="subtitles"
+                      srclang="en"
+                      src="media/asia-en.vtt"
+                      default />
+        
+                    <track
+                      label="Español"
+                      kind="subtitles"
+                      srclang="es"
+                      src="media/asia-es.vtt" />
+                  </video>
+                  <details>
+                    <summary>Video Transcript</summary>
+                    <p>Architectural Pros is a great company as they have helped me design my architectural projects. 
+                     Throughout my experience with Architectural Pros, not only do they feature a Showcase Gallery with several different innovative designs,
+                     but they also offer a team of experts that helps me navigate my journey. Not only do Architectural Pros offer expert 
+                     advice 24/7 they also offer innovative designs and technology.<p> Architectural Pros is different from other companies because they design for the future. All of their trends and modern designs can be easily
+                      acquitted throughout the years. Not only do the experts at Architectural Pros help me design 
+                      but they also help me showcase and tailor to my exact needs. I would recommend Architectural Pros to anyone that is looking for a design.</p>
+
+
+                  </details>
+               
+                
+           
+        </main>
+    </div>
+
+    
+
+    <div id="footerWrapper">
+        <footer>
+            <p>&copy; <span id="year">X</span> &bull; Asia Haws</p>
+        </footer>
+    </div>
+
+
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
