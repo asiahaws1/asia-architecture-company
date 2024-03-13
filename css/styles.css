@@ -379,7 +379,7 @@ header img {
     width: 100%; /* Ensure full width for all items */
   }
   li.active {
-    background-color: #0a9127;
+    background-color: #3641aa;
   }
   a {
     display: block;
@@ -499,7 +499,7 @@ section div h2 {
     justify-content: space-between;
   }
   li {
-    background-color: #0a9127;
+    background-color: #3641aa;
     width: 100vw;
     margin: 0;
   }
@@ -539,7 +539,7 @@ section div h2 {
     width: 100%;
     display: flex;
     justify-content: flex-end;
-    background-color: #0a9127;
+    background-color: #3641aa;
   }
   li.active {
     background-color: #4E6151;
